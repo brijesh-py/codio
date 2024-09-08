@@ -46,7 +46,7 @@ const ShareLinkModal = () => {
         <div className="flex items-center justify-center">
           <div className={`border border-zinc-700 rounded shadow-md`} ref={ref}>
             <span className="bg-green-900/30 p-1 rounded text-sm text-green-500">
-              {location.href}?code=
+              {location.href}code/
             </span>
             <span className="bg-sky-900/30 p-1 rounded text-sm text-sky-500">
               {link}
